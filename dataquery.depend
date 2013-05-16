@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1367487830 source:k:\code\c++\dataquery\src\rsrc\rsrc.rc
+	<windows.h>
+	<commctrl.h>
+	<richedit.h>
+	"resource.h"
+
+1367144948 k:\code\c++\dataquery\src\rsrc\resource.h
+
+1367660676 source:k:\code\c++\dataquery\src\sub\cmd.cpp
+	"cmd.h"
+
+1367144138 k:\code\c++\dataquery\src\sub\cmd.h
+	<ctype.h>
+
+1367656306 source:k:\code\c++\dataquery\src\sub\console.cpp
+	"console.h"
+	"..\main.h"
+
+1367655924 k:\code\c++\dataquery\src\sub\console.h
+	<windows.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"io.h"
+	"cmd.h"
+	"list.h"
+	"global.h"
+
+1169657660 k:\code\c++\dataquery\src\sub\io.h
+	<windows.h>
+	<string.h>
+
+1367651758 k:\code\c++\dataquery\src\sub\list.h
+	<stdlib.h>
+	<string.h>
+
+1169655894 k:\code\c++\dataquery\src\sub\global.h
+
+1169656350 k:\code\c++\dataquery\src\main.h
+
+1366882814 source:k:\code\c++\dataquery\src\sub\io.cpp
+	"io.h"
+
+1367656780 source:k:\code\c++\dataquery\src\sub\list.cpp
+	"list.h"
+
+1367466546 source:k:\code\c++\dataquery\src\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"sub\global.h"
+	"sub\io.h"
+	"rsrc\resource.h"
+	"sub\console.h"
+	"main.h"
+	"sub\cmd.h"
+
